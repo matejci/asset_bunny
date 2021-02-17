@@ -10,15 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Wrapper for Bunny gem'
   spec.description   = 'This gem is a simple wrapper around Bunny gem. It allows you to publish messages to RabbitMQ'
-  spec.homepage      = 'https://bitbucket.org/matejci/asset_bunny'
+  spec.homepage      = 'https://github.com/AssetPandaLLC/asset_bunny'
   spec.license       = 'MIT'
   # spec.required_ruby_version = Gem::Requirement.new('>= 2.7.1')
 
-  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
+  spec.metadata['allowed_push_host'] = 'https://github.com/AssetPandaLLC/asset_bunny'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://bitbucket.org/matejci/asset_bunny'
-  spec.metadata['changelog_uri'] = 'https://bitbucket.org/matejci/asset_bunny'
+  spec.metadata['source_code_uri'] = 'https://github.com/AssetPandaLLC/asset_bunny'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -38,7 +37,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rubocop', '~> 1.7'
   spec.add_development_dependency 'rubocop-performance'
-
-  # For more information and examples about making a new gem, checkout our
-  # guide at: https://bundler.io/guides/creating_gem.html
 end
